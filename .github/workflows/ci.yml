@@ -9,8 +9,8 @@ on:
     tags:
       - '[0-9].*'
   schedule:
-    # Every Wednesday at 6:06 UTC
-    - cron: "6 6 * * 3"
+    # Every hour? Would be nice...
+    - cron: "22 * * * *"
 
 jobs:
   pre-commit:
